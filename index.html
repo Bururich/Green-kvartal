@@ -16,6 +16,12 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,54 +50,33 @@
       <div class="top-row d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">LeadPage</h1>
+          <img src="assets/img/new-logo1.png" > 
+          
         </a>
 
+        
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Про нас</a></li>
+            <li><a href="#about">Наші послуги</a></li>
+            <li><a href="#features">Ландшафтний дизайн</a></li>
+            <li><a href="#services">Переваги</a></li>
+            <li><a href="#pricing">галерея</a></li>
+            <li><a href="#portfolio">Контакти</a></li>
+            
+           
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
         <div class="d-flex align-items-center">
           <div class="social-links">
+            <a href="tel:+380507681963">+380507681963</a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
       </div>
 
-    </div>
-
-    <div class="nav-wrap">
-      <div class="container d-flex justify-content-center position-relative">
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="#hero" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#team">Team</a></li>
-            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-      </div>
     </div>
 
   </header>
@@ -102,11 +87,8 @@
     <section id="hero" class="hero section dark-background">
 
       <div class="video-background">
-        <video autoplay="" muted="" loop="" playsinline="">
-          <source src="assets/img/video/video-2.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <div class="video-overlay"></div>
+        <img src="./assets/img/hero-bg.png" alt="" class="hero-img">
+        
       </div>
 
       <div class="hero-content">
@@ -114,11 +96,10 @@
         <div class="container position-relative">
           <div class="row justify-content-center text-center">
             <div class="col-lg-8">
-              <h1 data-aos="fade-up" data-aos-delay="100">Transform Your Vision Into Reality</h1>
-              <p data-aos="fade-up" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+              <h1 data-aos="fade-up" data-aos-delay="100">Green Kvartal</h1>
+              <p data-aos="fade-up" data-aos-delay="200">створюємо гармонію у вашому саду</p>
               <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
                 <a href="#about" class="btn btn-primary">Get Started</a>
-                <a href="#services" class="btn btn-outline">Learn More</a>
               </div>
             </div>
           </div>
@@ -126,16 +107,23 @@
 
       </div>
 
-    </section><!-- /Hero Section -->
+    </section> <!-- /Hero Section -->
 
+    <section class="season-offers">
+      <div class="season-container">
+        <div class="season-text-cont">
+        <h1>ХРИЗАНТЕМИ</h1>
+        <p>сезон розпочато</p>
+      </div>
+      </div>
+    </section>
     <!-- About Section -->
     <section id="about" class="about section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">About</span>
-        <h2>About</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        
+        <h2>Про нас</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -143,41 +131,35 @@
         <div class="row align-items-center">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
             <div class="content">
-              <h2>Crafting meaningful experiences through thoughtful design and innovative solutions</h2>
-              <p class="lead">We believe in the power of purposeful creation, where every detail serves a greater vision and every project becomes a testament to our commitment to excellence.</p>
-              <p>Our journey began with a simple philosophy: to transform ideas into reality through meticulous attention to detail and an unwavering dedication to quality. Today, we continue to push boundaries while staying true to our core values of authenticity, innovation, and meaningful impact.</p>
+              <p>У Green Kvartal ми віримо, що сад — це більше, ніж просто дерева й кущі. Це простір для відпочинку, натхнення та затишку. Саме тому ми підходимо до кожного проєкту з любов’ю, турботою та увагою до деталей.</h2>
+              <p>Наша студія ландшафтного дизайну й догляду за територіями допоможе вам отримати бажаний результат із гарантованою якістю. Ми беремо на себе повну відповідальність:від розробки та узгодження проєкту до його втілення,контроль підрядних бригад,організацію доставки та використання всіх необхідних матеріалів.</p>
+              <p>Окрім послуг, ви завжди можете завітати до нашого торгового майданчика та обрати з великого асортименту декоративних рослин. У нас знайдете дерева, кущі, квіти — усе для того, щоб ваш сад ожив і дарував радість щодня</p>
               <div class="stats-wrapper">
                 <div class="stat-item">
-                  <span class="number purecounter" data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"></span>
-                  <span class="label">Years of Excellence</span>
+                  <span class="number purecounter" data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"></span>
+                  <span class="label">років досвіду</span>
                 </div>
                 <div class="stat-item">
-                  <span class="number purecounter" data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"></span>
-                  <span class="label">Projects Completed</span>
+                  <span class="number purecounter" data-purecounter-start="0" data-purecounter-end="4000" data-purecounter-duration="1"></span>
+                  <span class="label">задоволених клієнтів</span>
                 </div>
                 <div class="stat-item">
-                  <span class="number purecounter" data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"></span>
-                  <span class="label">Team Members</span>
+                  <span class="number purecounter" data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1"></span>
+                  <span class="label">готових проектів</span>
                 </div>
-              </div>
-              <div class="cta-wrapper">
-                <a href="#" class="btn-link">
-                  Discover our story
-                  <i class="bi bi-arrow-right"></i>
-                </a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="image-wrapper">
-              <img src="assets/img/about/about-1.webp" alt="About us" class="img-fluid">
+              <img src="./assets/img/about-us.png" alt="About us" class="img-fluid">
               <div class="floating-element">
                 <div class="quote-content">
                   <blockquote>
-                    "Excellence is never an accident. It is always the result of high intention, sincere effort, and intelligent execution."
+                    “Сад — це відображення душі садівника”
                   </blockquote>
-                  <cite>— Aristotle</cite>
+                  <cite>- Віктор Гюго</cite>
                 </div>
               </div>
             </div>
@@ -196,37 +178,47 @@
         <div class="row gy-4">
           <div class="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="client-item">
-              <img src="assets/img/clients/clients-1.webp" class="img-fluid" alt="Client 1">
+              <img src="./assets/img/mac.png" class="img-fluid" alt="Client 1">
             </div>
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="150">
             <div class="client-item">
-              <img src="assets/img/clients/clients-2.webp" class="img-fluid" alt="Client 2">
+              <img src="./assets/img/pizza-napoli.png" class="img-fluid" alt="Client 2">
             </div>
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="client-item">
-              <img src="assets/img/clients/clients-3.webp" class="img-fluid" alt="Client 3">
+              <img src="./assets/img/drova.png" class="img-fluid" alt="Client 3">
             </div>
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="250">
             <div class="client-item">
-              <img src="assets/img/clients/clients-4.webp" class="img-fluid" alt="Client 4">
+              <img src="./assets/img/location-rest.png" class="img-fluid" alt="Client 4">
             </div>
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="client-item">
-              <img src="assets/img/clients/clients-5.webp" class="img-fluid" alt="Client 5">
+              <img src="./assets/img/fransua.png" class="img-fluid" alt="Client 5">
             </div>
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="350">
             <div class="client-item">
-              <img src="assets/img/clients/clients-6.webp" class="img-fluid" alt="Client 6">
+              <img src="./assets/img/fryway.png" class="img-fluid" alt="Client 6">
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="350">
+            <div class="client-item">
+              <img src="./assets/img/lux-wash.png" class="img-fluid" alt="Client 6">
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="350">
+            <div class="client-item">
+              <img src="./assets/img/kex-bar.png" class="img-fluid" alt="Client 6">
             </div>
           </div><!-- End Client Item -->
 
@@ -236,14 +228,136 @@
 
     </section><!-- /Clients Section -->
 
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Наші Послуги</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="services-showcase mt-5">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="featured-service" data-aos="fade-right" data-aos-delay="200">
+                <div class="service-image">
+                  <img src="assets/img/amenities.png" alt="Featured Service" class="img-fluid">
+                </div>
+                <div class="service-overlay">
+                  <div class="overlay-content">
+                    <h3>Висадка дерев</h3>
+                    <p>Ми професійно висаджуємо дерева та кущі, враховуючи особливості ґрунту й місцевості, щоб рослини прижилися та радували вас багато років.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="services-list">
+
+                <div class="service-item" data-aos="fade-left" data-aos-delay="100">
+                  <div class="service-icon">
+                    <i class="bi bi-arrow-up-circle-fill"></i>
+                  </div>
+                  <div class="service-content">
+                    <h4><a href="service-details.html">Висадка дерев</a></h4>
+                    <p>Ми професійно висаджуємо дерева та кущі, враховуючи особливості ґрунту й місцевості, щоб рослини прижилися та радували вас багато років.</p>
+                  </div>
+                </div>
+
+                 <div class="service-item" data-aos="fade-left" data-aos-delay="100">
+                  <div class="service-icon">
+                    <i class="bi bi-tree-fill"></i>
+                  </div>
+                  <div class="service-content">
+                    <h4><a href="service-details.html">Ландшафтний дизайн</a></h4>
+                    <p>Створюємо індивідуальні рішення для вашої ділянки — від концепції до втілення. Ваш сад стане простором гармонії, краси та відпочинку.</p>
+                  </div>
+                </div>
+
+                <div class="service-item" data-aos="fade-left" data-aos-delay="200">
+                  <div class="service-icon">
+                    <i class="bi bi-scissors"></i>
+                  </div>
+                  <div class="service-content">
+                    <h4><a href="service-details.html">Стрижка рослин</a></h4>
+                    <p>Надаємо форму туям, живоплотам і декоративним деревам. Акуратні лінії й креативні обриси роблять ваш сад стильним і доглянутим.</p>
+                  </div>
+                </div>
+
+                <div class="service-item" data-aos="fade-left" data-aos-delay="300">
+                  <div class="service-icon">
+                    <i class="bi bi-bug-fill"></i>
+                  </div>
+                  <div class="service-content">
+                    <h4><a href="service-details.html">Захист від шкідників</a></h4>
+                    <p>Професійна обробка від хвороб і шкідників без шкоди для довкілля. Ми дбаємо про здоров’я ваших рослин і безпеку простору.</p>
+                  </div>
+                </div>
+
+                <div class="service-item" data-aos="fade-left" data-aos-delay="300">
+                  <div class="service-icon">
+                    <i class="bi bi-flower1"></i>
+                  </div>
+                  <div class="service-content">
+                    <h4><a href="service-details.html">Торговий майданчик</a></h4>
+                    <p>У нашому центрі ви знайдете широкий вибір декоративних рослин: дерева, кущі, квіти й туї для будь-якого саду чи подвір’я.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <section id="call-to-action" class="call-to-action section">
+
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row g-5">
+
+          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+            <h3>Ландшафтний дизайн</h3>
+            <p>Створюємо сади без зайвої формальності</p>
+            <p>У Green Kvartal ми не робимо 3D-проєктів чи складних візуалізацій. Натомість ми говоримо з вами про ваші бажання, уважно слухаємо й пропонуємо найкращі рішення.</p>
+            <p>Наш підхід простий і чесний:</p>
+            <ul>
+              <li>приїжджаємо на ділянку</li>
+              <li>розставляємо рослини на місці,</li>
+              <li>узгоджуємо кожну деталь,</li>
+              <li>і висаджуємо так, щоб сад ожив відразу.</li>
+            </ul>
+
+            <p>Це живий процес, у якому ви бачите результат ще до того, як ми візьмемося за лопати.</p>
+            <a class="cta-btn align-self-start" href="#">Замовити консультацію</a>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+            <div class="img">
+              <img src="./assets/img/call-to-action-2.png" alt="" class="img-fluid">
+            </div>
+           
+          </div>
+      
+        </div>
+
+      </div>
+
+    </section>
+
     <!-- Features Section -->
     <section id="features" class="features section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Features</span>
-        <h2>Great Features</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        
+        <h2>Чому ми?</h2>
+       
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -254,10 +368,10 @@
               <li class="nav-item">
                 <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
                   <div class="tab-content-preview">
-                    <span class="tab-number">01</span>
+                    
                     <div class="tab-text">
-                      <h6>Innovation</h6>
-                      <small>Creative solutions</small>
+                      <h6>Досвід</h6>
+                      
                     </div>
                   </div>
                 </a>
@@ -265,10 +379,8 @@
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
                   <div class="tab-content-preview">
-                    <span class="tab-number">02</span>
                     <div class="tab-text">
-                      <h6>Strategy</h6>
-                      <small>Business growth</small>
+                      <h6>Гарантія</h6>
                     </div>
                   </div>
                 </a>
@@ -276,10 +388,8 @@
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
                   <div class="tab-content-preview">
-                    <span class="tab-number">03</span>
                     <div class="tab-text">
-                      <h6>Performance</h6>
-                      <small>Optimal results</small>
+                      <h6>Широкий асортимент</h6>
                     </div>
                   </div>
                 </a>
@@ -287,10 +397,8 @@
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
                   <div class="tab-content-preview">
-                    <span class="tab-number">04</span>
                     <div class="tab-text">
-                      <h6>Integration</h6>
-                      <small>Seamless workflow</small>
+                      <h6>Професійна команда</h6>
                     </div>
                   </div>
                 </a>
@@ -304,56 +412,17 @@
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <div class="content-area">
-                    <div class="content-badge">
-                      <i class="bi bi-lightbulb"></i>
-                      <span>Innovation Hub</span>
-                    </div>
-                    <h3>Revolutionary Design Thinking</h3>
-                    <p>Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    
+                    <h3>Досвід</h3>
+                    <p>Ми знаємо, як росте сад</p>
 
-                    <div class="highlight-stats">
-                      <div class="stat-item">
-                        <span class="stat-value">145%</span>
-                        <span class="stat-label">Innovation Rate</span>
-                      </div>
-                      <div class="stat-item">
-                        <span class="stat-value">28K</span>
-                        <span class="stat-label">Ideas Generated</span>
-                      </div>
-                    </div>
-
-                    <div class="feature-points">
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Nemo enim ipsam voluptatem quia voluptas sit</span>
-                      </div>
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Aspernatur aut odit fugit sed quia consequuntur</span>
-                      </div>
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Magni dolores eos qui ratione voluptatem</span>
-                      </div>
-                    </div>
-
-                    <a href="#" class="explore-link">
-                      Explore Innovation <i class="bi bi-arrow-up-right"></i>
-                    </a>
+                    <p>Багаторічна практика та десятки реалізованих проєктів допомагають нам створювати гармонійні та довговічні рішення.</p>
+                    <a class="cta-btn align-self-start why-us-butt" href="#">Замовити консультацію</a>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="visual-content">
-                    <img src="assets/img/features/features-2.webp" alt="" class="img-fluid">
-                    <div class="floating-element">
-                      <div class="floating-card">
-                        <i class="bi bi-lightning-charge"></i>
-                        <div class="card-info">
-                          <span>Speed</span>
-                          <strong>3x Faster</strong>
-                        </div>
-                      </div>
-                    </div>
+                    <img src="assets/img/why-us-1.png" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -363,56 +432,17 @@
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <div class="content-area">
-                    <div class="content-badge">
-                      <i class="bi bi-compass"></i>
-                      <span>Strategic Planning</span>
-                    </div>
-                    <h3>Data-Driven Business Strategy</h3>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                    
+                    <h3>Гарантія</h3>
+                    <p>Відповідальність за результат</p>
 
-                    <div class="highlight-stats">
-                      <div class="stat-item">
-                        <span class="stat-value">234%</span>
-                        <span class="stat-label">Growth Rate</span>
-                      </div>
-                      <div class="stat-item">
-                        <span class="stat-value">156</span>
-                        <span class="stat-label">Strategies</span>
-                      </div>
-                    </div>
-
-                    <div class="feature-points">
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Similique sunt in culpa qui officia deserunt</span>
-                      </div>
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Mollitia animi id est laborum et dolorum fuga</span>
-                      </div>
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Et harum quidem rerum facilis est expedita</span>
-                      </div>
-                    </div>
-
-                    <a href="#" class="explore-link">
-                      View Strategy <i class="bi bi-arrow-up-right"></i>
-                    </a>
+                    <p>Багаторічна практика та десятки реалізованих проєктів допомагають нам створювати гармонійні та довговічні рішення.</p>
+                    <a class="cta-btn align-self-start why-us-butt" href="#">Замовити консультацію</a>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="visual-content">
-                    <img src="assets/img/features/features-4.webp" alt="" class="img-fluid">
-                    <div class="floating-element">
-                      <div class="floating-card">
-                        <i class="bi bi-graph-up-arrow"></i>
-                        <div class="card-info">
-                          <span>Growth</span>
-                          <strong>+189% ROI</strong>
-                        </div>
-                      </div>
-                    </div>
+                    <img src="assets/img/why-us-2.png" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -422,56 +452,16 @@
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <div class="content-area">
-                    <div class="content-badge">
-                      <i class="bi bi-speedometer2"></i>
-                      <span>High Performance</span>
-                    </div>
-                    <h3>Optimized System Performance</h3>
-                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet voluptates repudiandae sint et molestiae non recusandae itaque earum rerum hic tenetur sapiente delectus.</p>
+                    <h3>Широкий асортимент</h3>
+                    <p>Рослини на будь-який смак</p>
 
-                    <div class="highlight-stats">
-                      <div class="stat-item">
-                        <span class="stat-value">99.8%</span>
-                        <span class="stat-label">System Uptime</span>
-                      </div>
-                      <div class="stat-item">
-                        <span class="stat-value">2.4s</span>
-                        <span class="stat-label">Load Time</span>
-                      </div>
-                    </div>
-
-                    <div class="feature-points">
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Ut aut reiciendis voluptatibus maiores alias</span>
-                      </div>
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Consequatur aut perferendis doloribus asperiores</span>
-                      </div>
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Repellat nam libero tempore cum soluta nobis</span>
-                      </div>
-                    </div>
-
-                    <a href="#" class="explore-link">
-                      Check Performance <i class="bi bi-arrow-up-right"></i>
-                    </a>
+                    <p>На нашому майданчику знайдете широкий асортимент дерев, кущів та квітів для різних стилів і потреб.</p>
+                    <a class="cta-btn align-self-start why-us-butt" href="#">Замовити консультацію</a>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="visual-content">
-                    <img src="assets/img/features/features-1.webp" alt="" class="img-fluid">
-                    <div class="floating-element">
-                      <div class="floating-card">
-                        <i class="bi bi-cpu"></i>
-                        <div class="card-info">
-                          <span>Power</span>
-                          <strong>128 Cores</strong>
-                        </div>
-                      </div>
-                    </div>
+                    <img src="assets/img/why-us-3.png" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -481,56 +471,16 @@
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <div class="content-area">
-                    <div class="content-badge">
-                      <i class="bi bi-puzzle"></i>
-                      <span>Smart Integration</span>
-                    </div>
-                    <h3>Seamless Workflow Integration</h3>
-                    <p>Eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis voluptas assumenda est omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis.</p>
+                     <h3>Професійна команда</h3>
+                    <p>Турбота та майстерність</p>
 
-                    <div class="highlight-stats">
-                      <div class="stat-item">
-                        <span class="stat-value">450+</span>
-                        <span class="stat-label">Integrations</span>
-                      </div>
-                      <div class="stat-item">
-                        <span class="stat-value">85%</span>
-                        <span class="stat-label">Automation</span>
-                      </div>
-                    </div>
-
-                    <div class="feature-points">
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Rerum necessitatibus saepe eveniet voluptates</span>
-                      </div>
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Repudiandae sint et molestiae non recusandae</span>
-                      </div>
-                      <div class="point-item">
-                        <i class="bi bi-arrow-right"></i>
-                        <span>Itaque earum rerum hic tenetur sapiente</span>
-                      </div>
-                    </div>
-
-                    <a href="#" class="explore-link">
-                      Start Integration <i class="bi bi-arrow-up-right"></i>
-                    </a>
+                    <p>Кожен член нашої команди працює з любов’ю до справи, приділяючи увагу кожній деталі вашого простору.</p>
+                    <a class="cta-btn align-self-start why-us-butt" href="#">Замовити консультацію</a>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="visual-content">
-                    <img src="assets/img/features/features-5.webp" alt="" class="img-fluid">
-                    <div class="floating-element">
-                      <div class="floating-card">
-                        <i class="bi bi-link-45deg"></i>
-                        <div class="card-info">
-                          <span>Connected</span>
-                          <strong>24/7 Sync</strong>
-                        </div>
-                      </div>
-                    </div>
+                    <img src="assets/img/why-us-4.png" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -543,126 +493,96 @@
 
     </section><!-- /Features Section -->
 
-    <!-- Features Cards Section -->
-    <section id="features-cards" class="features-cards section">
+     <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Галерея</h2>
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row g-4">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="150">
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="bi bi-app-indicator"></i>
-              </div>
-              <h3>Intuitive Dashboard Interface</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
-              <ul class="feature-benefits">
-                <li><i class="bi bi-check-circle-fill"></i> Real-time data visualization</li>
-                <li><i class="bi bi-check-circle-fill"></i> Customizable widgets</li>
-                <li><i class="bi bi-check-circle-fill"></i> Interactive reports</li>
-              </ul>
-              <div class="feature-image">
-                <img src="assets/img/features/features-1.webp" alt="Dashboard Interface" class="img-fluid" loading="lazy">
-              </div>
-            </div>
-          </div>
+        <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="feature-card highlighted">
-              <div class="feature-icon">
-                <i class="bi bi-graph-up-arrow"></i>
-              </div>
-              <h3>Advanced Analytics Tools</h3>
-              <p>Mauris blandit aliquet elit eget tincidunt nibh pulvinar a cras ultricies ligula sed magna dictum porta mauris blandit aliquet elit eget tincidunt.</p>
-              <ul class="feature-benefits">
-                <li><i class="bi bi-check-circle-fill"></i> Predictive analysis</li>
-                <li><i class="bi bi-check-circle-fill"></i> Custom reporting</li>
-                <li><i class="bi bi-check-circle-fill"></i> Data exploration</li>
-              </ul>
-              <div class="feature-image">
-                <img src="assets/img/features/features-2.webp" alt="Analytics Tools" class="img-fluid" loading="lazy">
-              </div>
-            </div>
-          </div>
+          
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="bi bi-shield-check"></i>
-              </div>
-              <h3>Enterprise-Grade Security</h3>
-              <p>Nulla porttitor accumsan tincidunt praesent sapien massa convallis a pellentesque nec egestas non nisi proin eget tortor risus donec sollicitudin.</p>
-              <ul class="feature-benefits">
-                <li><i class="bi bi-check-circle-fill"></i> End-to-end encryption</li>
-                <li><i class="bi bi-check-circle-fill"></i> Advanced access control</li>
-                <li><i class="bi bi-check-circle-fill"></i> Compliance monitoring</li>
-              </ul>
-              <div class="feature-image">
-                <img src="assets/img/features/features-3.webp" alt="Security Features" class="img-fluid" loading="lazy">
-              </div>
-            </div>
-          </div>
-        </div>
+          <div class="row gy-4 portfolio-grid isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="feature-testimonial" data-aos="fade-up" data-aos-delay="300">
-          <div class="row align-items-center">
-            <div class="col-lg-6" data-aos="zoom-in">
-              <div class="testimonial-image">
-                <img src="assets/img/features/features-4.webp" alt="Testimonial" class="img-fluid">
-              </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="testimonial-content">
-                <div class="quote-icon">
-                  <i class="bi bi-quote"></i>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/gallery-photo-1.png" class="img-fluid" alt="Brand Identity" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/gallery-photo-1.png" class="glightbox zoom-link" title="Brand Identity Project">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      
+                    </div>
+                  </div>
                 </div>
-                <p>Curabitur arcu erat accumsan id imperdiet et porttitor at sem. Vivamus magna justo lacinia eget consectetur sed convallis at tellus. Curabitur aliquet quam id dui posuere blandit.</p>
-                <div class="testimonial-author">
-                  <h4>Jennifer Austin</h4>
-                  <span>Product Director at TechCorp</span>
+                <div class="content">
+                  <h3>Стрижка</h3>
+                  
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </div><!-- End Portfolio Item -->
 
-      </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/gallery-photo-2.png" class="img-fluid" alt="E-commerce Platform" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/gallery-photo-2.png" class="glightbox zoom-link" title="E-commerce Platform">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Готові об’єкти</h3>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-    </section><!-- /Features Cards Section -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/portfolio-portrait-5.webp" class="img-fluid" alt="Magazine Design" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/portfolio-portrait-5.webp" class="glightbox zoom-link" title="Magazine Design">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Торговий майданчик</h3>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+<!-- End Portfolio Item -->
 
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
-
-      <div class="container" data-aos="zoom-out">
-
-        <div class="row g-5">
-
-          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>Alias sunt quas <em>Cupiditate</em> oluptas hic minima</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="cta-btn align-self-start" href="#">Call To Action</a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
-            <div class="img">
-              <img src="assets/img/misc/misc-portrait-8.webp" alt="" class="img-fluid">
-            </div>
-          </div>
+          </div><!-- End Portfolio Grid -->
 
         </div>
 
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section>
 
-    <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Testimonials</span>
-        <h2>What They Say About Us</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        
+        <h2>Відгуки клієнтів</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -699,12 +619,12 @@
               <div class="testimonial-item" "="">
             <p>
               <i class=" bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
+                <span>Дякую персоналу садового центру за обслуговування. Завжди допоможуть обрати потрібні рослини та нададуть корисні поради щодо догляду. Асортимент дуже широкий та якісний. Завдяки вам садівництво приносить ще більше задоволення</span>
+                <i class="bi bi-quote quote-icon-right"></i><br>Рекомендую всім! 🌷😊
                 </p>
-                <img src="assets/img/person/person-m-9.webp" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                
+                <h3>Світлана А.</h3>
+                
               </div>
             </div><!-- End testimonial item -->
 
@@ -715,7 +635,6 @@
                   <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/person/person-f-5.webp" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
               </div>
@@ -728,7 +647,7 @@
                   <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/person/person-f-12.webp" class="testimonial-img" alt="">
+                
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
               </div>
@@ -741,7 +660,6 @@
                   <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/person/person-m-12.webp" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
               </div>
@@ -754,7 +672,7 @@
                   <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/person/person-m-13.webp" class="testimonial-img" alt="">
+                
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
               </div>
@@ -763,664 +681,49 @@
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
+        <button class="btn btn-primary testi-butt">Замовити</button>
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="call-to-action" class="call-to-action section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Services</span>
-        <h2>Our Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      <div class="container" data-aos="zoom-out">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-5">
 
-        <div class="services-showcase mt-5">
-          <div class="row g-0">
-            <div class="col-lg-6">
-              <div class="featured-service" data-aos="fade-right" data-aos-delay="200">
-                <div class="service-image">
-                  <img src="assets/img/services/services-3.webp" alt="Featured Service" class="img-fluid">
-                </div>
-                <div class="service-overlay">
-                  <div class="overlay-content">
-                    <h3>Digital Transformation</h3>
-                    <p>Revolutionizing businesses through cutting-edge technology solutions and strategic digital initiatives.</p>
-                    <a href="service-details.html" class="service-link">
-                      <span>Discover More</span>
-                      <i class="bi bi-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="services-list">
-
-                <div class="service-item" data-aos="fade-left" data-aos-delay="100">
-                  <div class="service-icon">
-                    <i class="bi bi-palette"></i>
-                  </div>
-                  <div class="service-content">
-                    <h4><a href="service-details.html">Brand Strategy</a></h4>
-                    <p>Crafting compelling brand narratives that resonate with your target audience and establish market leadership.</p>
-                  </div>
-                </div>
-
-                <div class="service-item" data-aos="fade-left" data-aos-delay="200">
-                  <div class="service-icon">
-                    <i class="bi bi-code-slash"></i>
-                  </div>
-                  <div class="service-content">
-                    <h4><a href="service-details.html">Technical Development</a></h4>
-                    <p>Building scalable solutions with modern technologies that drive efficiency and enhance user experiences.</p>
-                  </div>
-                </div>
-
-                <div class="service-item" data-aos="fade-left" data-aos-delay="300">
-                  <div class="service-icon">
-                    <i class="bi bi-graph-up-arrow"></i>
-                  </div>
-                  <div class="service-content">
-                    <h4><a href="service-details.html">Growth Analytics</a></h4>
-                    <p>Leveraging data-driven insights to optimize performance and accelerate sustainable business growth.</p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
+          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+            <h3>Хочете сад, який приносить радість щодня?</h3>
+            <p>Залиште заявку — і ми допоможемо створити його для вас.</p>
+            
+            <a class="cta-btn align-self-start" href="#">Замовити консультацію</a>
           </div>
-        </div>
-
-        <div class="additional-services mt-5">
-          <div class="row g-5">
-
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <div class="service-card">
-                <div class="card-image">
-                  <img src="assets/img/services/services-7.webp" alt="Consulting Services" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <h5><a href="service-details.html">Strategic Consulting</a></h5>
-                  <p>Expert guidance to navigate complex business challenges and identify new opportunities for sustainable growth and market expansion.</p>
-                  <a href="service-details.html" class="read-more">
-                    Learn More <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
+          
+          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+            <div class="img">
+              <img src="./assets/img/call-to-action-3.png" alt="" class="img-fluid">
             </div>
-
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-              <div class="service-card">
-                <div class="card-image">
-                  <img src="assets/img/services/services-9.webp" alt="Digital Marketing" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <h5><a href="service-details.html">Digital Marketing</a></h5>
-                  <p>Comprehensive marketing strategies that amplify your online presence and drive meaningful engagement across all digital channels.</p>
-                  <a href="service-details.html" class="read-more">
-                    Learn More <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-              <div class="service-card">
-                <div class="card-image">
-                  <img src="assets/img/services/services-11.webp" alt="Innovation Labs" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <h5><a href="service-details.html">Innovation Labs</a></h5>
-                  <p>Experimental environments where breakthrough ideas come to life through rapid prototyping and collaborative innovation processes.</p>
-                  <a href="service-details.html" class="read-more">
-                    Learn More <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
+           
           </div>
+      
         </div>
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Pricing</span>
-        <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free Plan</h3>
-              <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <p class="popular">Popular</p>
-              <h3>Business Plan</h3>
-              <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li><i class="bi bi-check"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Developer Plan</h3>
-              <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li><i class="bi bi-check"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li><i class="bi bi-check"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Pricing Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">F.A.Q</span>
-        <h2>Frequently Asked Questions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-
-            <div class="faq-wrapper">
-
-              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="150">
-                <div class="faq-header">
-                  <span class="faq-number">01</span>
-                  <h4>Donec sollicitudin molestie malesuada proin eget tortor?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
-                <div class="faq-header">
-                  <span class="faq-number">02</span>
-                  <h4>Sed porttitor lectus nibh vivamus magna justo?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
-                <div class="faq-header">
-                  <span class="faq-number">03</span>
-                  <h4>Pellentesque habitant morbi tristique senectus?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
-                <div class="faq-header">
-                  <span class="faq-number">04</span>
-                  <h4>Lorem ipsum dolor sit amet consectetur adipiscing?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="350">
-                <div class="faq-header">
-                  <span class="faq-number">05</span>
-                  <h4>Curabitur aliquet quam id dui posuere blandit?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Faq Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Section Title</span>
-        <h2>Check Our Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
-
-          <div class="portfolio-filters-wrapper" data-aos="fade-up" data-aos-delay="100">
-            <ul class="portfolio-filters isotope-filters">
-              <li data-filter="*" class="filter-active">All Projects</li>
-              <li data-filter=".filter-branding">Branding</li>
-              <li data-filter=".filter-web">Web Design</li>
-              <li data-filter=".filter-print">Print Design</li>
-              <li data-filter=".filter-motion">Motion</li>
-            </ul>
-          </div>
-
-          <div class="row gy-4 portfolio-grid isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-card">
-                <div class="image-container">
-                  <img src="assets/img/portfolio/portfolio-3.webp" class="img-fluid" alt="Brand Identity" loading="lazy">
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/portfolio/portfolio-3.webp" class="glightbox zoom-link" title="Brand Identity Project">
-                        <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="content">
-                  <h3>Brand Identity</h3>
-                  <p>Corporate branding and visual identity system</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-card">
-                <div class="image-container">
-                  <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="E-commerce Platform" loading="lazy">
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/portfolio/portfolio-7.webp" class="glightbox zoom-link" title="E-commerce Platform">
-                        <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="content">
-                  <h3>E-commerce Platform</h3>
-                  <p>Modern online shopping experience</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
-              <div class="portfolio-card">
-                <div class="image-container">
-                  <img src="assets/img/portfolio/portfolio-portrait-5.webp" class="img-fluid" alt="Magazine Design" loading="lazy">
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/portfolio/portfolio-portrait-5.webp" class="glightbox zoom-link" title="Magazine Design">
-                        <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="content">
-                  <h3>Magazine Design</h3>
-                  <p>Editorial layout and typography</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
-              <div class="portfolio-card">
-                <div class="image-container">
-                  <img src="assets/img/portfolio/portfolio-8.webp" class="img-fluid" alt="Motion Graphics" loading="lazy">
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/portfolio/portfolio-8.webp" class="glightbox zoom-link" title="Motion Graphics">
-                        <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="content">
-                  <h3>Motion Graphics</h3>
-                  <p>Animated visual storytelling</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-card">
-                <div class="image-container">
-                  <img src="assets/img/portfolio/portfolio-9.webp" class="img-fluid" alt="Logo Collection" loading="lazy">
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/portfolio/portfolio-9.webp" class="glightbox zoom-link" title="Logo Collection">
-                        <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="content">
-                  <h3>Logo Collection</h3>
-                  <p>Diverse brand mark explorations</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-card">
-                <div class="image-container">
-                  <img src="assets/img/portfolio/portfolio-portrait-8.webp" class="img-fluid" alt="Mobile App Design" loading="lazy">
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/portfolio/portfolio-portrait-8.webp" class="glightbox zoom-link" title="Mobile App Design">
-                        <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="content">
-                  <h3>Mobile App Design</h3>
-                  <p>User-centered interface design</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
-              <div class="portfolio-card">
-                <div class="image-container">
-                  <img src="assets/img/portfolio/portfolio-10.webp" class="img-fluid" alt="Packaging Design" loading="lazy">
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/portfolio/portfolio-10.webp" class="glightbox zoom-link" title="Packaging Design">
-                        <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="content">
-                  <h3>Packaging Design</h3>
-                  <p>Sustainable product packaging solutions</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
-              <div class="portfolio-card">
-                <div class="image-container">
-                  <img src="assets/img/portfolio/portfolio-11.webp" class="img-fluid" alt="Brand Animation" loading="lazy">
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <a href="assets/img/portfolio/portfolio-11.webp" class="glightbox zoom-link" title="Brand Animation">
-                        <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="content">
-                  <h3>Brand Animation</h3>
-                  <p>Dynamic brand identity systems</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Grid -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Team</span>
-        <h2>Our Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-4 align-items-stretch">
-
-          <div class="col-md-6 col-lg-3">
-            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="150">
-              <figure class="member-media">
-                <img src="assets/img/person/person-f-9.webp" class="img-fluid" alt="Team member portrait">
-                <ul class="social-list">
-                  <li><a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a></li>
-                  <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
-                  <li><a href="#" aria-label="Github"><i class="bi bi-github"></i></a></li>
-                </ul>
-              </figure>
-              <div class="member-content">
-                <h3 class="member-name">Ava Thompson</h3>
-                <p class="member-role">Product Strategist</p>
-                <p class="member-bio">Consequatur illum numquam doloremque, sed vitae ipsa dolores. Aspernatur dicta facilis incidunt.</p>
-              </div>
-            </article><!-- End Team Member -->
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="200">
-              <figure class="member-media">
-                <img src="assets/img/person/person-m-7.webp" class="img-fluid" alt="Team member portrait">
-                <ul class="social-list">
-                  <li><a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a></li>
-                  <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
-                  <li><a href="#" aria-label="Dribbble"><i class="bi bi-dribbble"></i></a></li>
-                </ul>
-              </figure>
-              <div class="member-content">
-                <h3 class="member-name">Logan Rivera</h3>
-                <p class="member-role">Lead UX Designer</p>
-                <p class="member-bio">Voluptatem repellat omnis, harum veritatis amet. Ullam fugiat beatae quam, nihil officiis.</p>
-              </div>
-            </article><!-- End Team Member -->
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="250">
-              <figure class="member-media">
-                <img src="assets/img/person/person-f-12.webp" class="img-fluid" alt="Team member portrait">
-                <ul class="social-list">
-                  <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
-                  <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
-                  <li><a href="#" aria-label="Behance"><i class="bi bi-behance"></i></a></li>
-                </ul>
-              </figure>
-              <div class="member-content">
-                <h3 class="member-name">Mia Patel</h3>
-                <p class="member-role">Engineering Manager</p>
-                <p class="member-bio">Accusantium quasi obcaecati, ipsum libero minima rem. Dignissimos, asperiores. Nisi, distinctio.</p>
-              </div>
-            </article><!-- End Team Member -->
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="300">
-              <figure class="member-media">
-                <img src="assets/img/person/person-m-11.webp" class="img-fluid" alt="Team member portrait">
-                <ul class="social-list">
-                  <li><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
-                  <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
-                  <li><a href="#" aria-label="Github"><i class="bi bi-github"></i></a></li>
-                </ul>
-              </figure>
-              <div class="member-content">
-                <h3 class="member-name">Ethan Brooks</h3>
-                <p class="member-role">Full‑Stack Developer</p>
-                <p class="member-bio">Quidem blanditiis recusandae laborum, at molestias id aliquam. Cumque, architecto dolorum.</p>
-              </div>
-            </article><!-- End Team Member -->
-          </div>
-
-        </div>
-
-        <div class="row g-4 mt-2">
-          <div class="col-lg-8">
-            <div class="team-highlight d-flex align-items-center" data-aos="fade-right" data-aos-delay="200">
-              <div class="icon-wrap">
-                <i class="bi bi-people"></i>
-              </div>
-              <div class="copy">
-                <h4 class="title">Collaborative crew, measurable impact</h4>
-                <p class="desc mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 d-flex align-items-stretch">
-            <aside class="join-card w-100" data-aos="fade-left" data-aos-delay="250">
-              <div class="join-content">
-                <h5 class="mb-2">Want to work with us?</h5>
-                <p class="mb-3">Doloribus modi cum repellat. Veniam numquam dicta, laudantium a deleniti sapiente.</p>
-                <a href="#" class="btn btn-join">
-                  <i class="bi bi-send me-1"></i>
-                  Open Positions
-                </a>
-              </div>
-            </aside>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Team Section -->
+    <!-- Features Cards Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Contact</span>
-        <h2>Contact Us</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-stretch">
+        <div class="row align-items-stretch flex-contact">
           <div class="col-lg-7 order-lg-1 order-2" data-aos="fade-right" data-aos-delay="200">
             <div class="contact-form-container">
               <div class="form-intro">
-                <h2>Let's Start a Conversation</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                <h2>Зворотній зв’язок</h2>
+                <p>Лишились питання? <br>Зв’яжіться з нами</p>
               </div>
 
               <form action="forms/contact.php" method="post" class="php-email-form contact-form">
@@ -1432,13 +735,7 @@
                     </div>
                   </div>
 
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="email" class="form-input" name="email" id="userEmail" placeholder="Your Email" required="">
-                      <label for="userEmail" class="field-label">Email</label>
-                    </div>
-                  </div>
-                </div>
+                  
 
                 <div class="row">
                   <div class="col-md-6">
@@ -1448,29 +745,12 @@
                     </div>
                   </div>
 
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="text" class="form-input" name="subject" id="messageSubject" placeholder="Subject" required="">
-                      <label for="messageSubject" class="field-label">Subject</label>
-                    </div>
-                  </div>
-                </div>
+                  
 
-                <div class="form-field message-field">
-                  <textarea class="form-input message-input" name="message" id="userMessage" rows="5" placeholder="Tell us about your project" required=""></textarea>
-                  <label for="userMessage" class="field-label">Message</label>
-                </div>
+                
 
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
 
-                <button type="submit" class="send-button">
-                  Send Message
-                  <span class="button-arrow">→</span>
-                </button>
+                
               </form>
             </div>
           </div>

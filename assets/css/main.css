@@ -12,8 +12,8 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Lato",  sans-serif;
+  --default-font: 'Lato', sans-serif;
+  --heading-font: 'STIX Two Text', serif;
   --nav-font: "Montserrat",  sans-serif;
 }
 
@@ -22,15 +22,15 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #1a1715; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #110a06; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #c85716; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #99C33A; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: rgba(255, 255, 255, 0.8);  /* The default color of the main navmenu links */
-  --nav-hover-color: #c85716; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-color: #99C33A;  /* The default color of the main navmenu links */
+  --nav-hover-color: #8A0B8C; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #1a1715; /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -143,7 +143,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: #ffffff;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -162,7 +162,7 @@ h6 {
 }
 
 .header .top-row .logo img {
-  max-height: 40px;
+  max-height: 80px;
   margin-right: 10px;
 }
 
@@ -175,7 +175,7 @@ h6 {
 }
 
 .header .social-links a {
-  color: var(--heading-color);
+  color: var(--accent-color);
   padding: 0 8px;
   display: inline-block;
   font-size: 18px;
@@ -183,7 +183,7 @@ h6 {
 }
 
 .header .social-links a:hover {
-  color: var(--accent-color);
+  color: var(--nav-hover-color);
 }
 
 @media (max-width: 1200px) {
@@ -982,6 +982,7 @@ section,
   overflow: hidden;
 }
 
+
 .hero .hero-content {
   width: 100%;
   position: relative;
@@ -999,7 +1000,7 @@ section,
   z-index: 1;
 }
 
-.hero .video-background video {
+.hero .video-background img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1016,7 +1017,7 @@ section,
 }
 
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.2;
@@ -1066,14 +1067,15 @@ section,
 }
 
 .hero .hero-buttons .btn.btn-primary {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  border-color: var(--accent-color);
+  background-color: var(--nav-hover-color);
+  color: #fff;
+  border-color: var(--nav-hover-color);
 }
 
 .hero .hero-buttons .btn.btn-primary:hover {
-  background-color: color-mix(in srgb, var(--accent-color), black 15%);
-  border-color: color-mix(in srgb, var(--accent-color), black 15%);
+  background-color: #fff;
+  border-color: #fff;
+  color: var(--nav-hover-color);
   transform: translateY(-2px);
 }
 
@@ -1107,6 +1109,51 @@ section,
   }
 }
 
+/*--------------------------------------------------------------
+# Season Offers Section
+--------------------------------------------------------------*/
+
+.season-offers {
+  width: 100%;
+  height: 398px;
+  background-image: url("../img/season-offers-bg.png");
+  background-size: cover;         /* Масштабирует изображение, чтобы покрыть весь блок */
+  background-repeat: no-repeat;   /* Отключает повторение изображения */
+  background-position: center;  
+}
+
+.season-container {
+  width: 100%;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 0.412);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.season-text-cont {
+  width: 650px;
+  height: 240px;
+}
+.season-text-cont h1 {
+  width: 640px;
+  height: 116px;
+  margin: 0;
+  text-align: center;
+  padding-top: 30px;
+  font-family: var(--default-font);
+  font-size: 92px;
+}
+
+.season-text-cont p {
+  width: 640px;
+  height: 58px;
+  margin: 0;
+  text-align: center;
+  padding-top: 30px;
+  font-family: var(--default-font);
+  font-size: 46px;
+}
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -1335,6 +1382,11 @@ section,
 
 .features .tabs-header {
   margin-bottom: 80px;
+}
+
+.why-us-butt {
+  border-width: 2px;
+  border-color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
@@ -1919,11 +1971,12 @@ section,
 --------------------------------------------------------------*/
 .call-to-action {
   padding: 0;
+  
 }
 
 .call-to-action .container {
   padding: 80px;
-  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  background: color-mix(in srgb, var(--accent-color), transparent 10%);
   border-radius: 15px;
 }
 
@@ -1962,7 +2015,7 @@ section,
 }
 
 .call-to-action .content .cta-btn {
-  color: var(--contrast-color);
+  color: var(--background-color);
   font-weight: 500;
   font-size: 16px;
   display: inline-block;
@@ -1970,11 +2023,16 @@ section,
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 10px;
-  background: var(--accent-color);
+  background: var(--nav-hover-color);
+  border: 2px;
+  border-color: var(--nav-hover-color);
 }
 
 .call-to-action .content .cta-btn:hover {
-  background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
+  background: var(--background-color);
+  border: 2px;
+  border-color: var(--nav-hover-color);
+  color: var(--nav-hover-color);
 }
 
 .call-to-action .img {
@@ -2015,7 +2073,23 @@ section,
 .testimonials .testimonials-slider {
   overflow: hidden;
 }
+.testi-butt {
+  background-color: var(--nav-hover-color);
+  color: var(--background-color);
+  width: 150px;
+  height: 45px;
+  position: relative;
+  margin-top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-color: var(--nav-hover-color);
+}
 
+.testi-butt:hover {
+  background-color: var(--background-color);
+  border-color: var(--nav-hover-color);
+  color: var(--nav-hover-color);
+}
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
@@ -3100,10 +3174,28 @@ section,
 --------------------------------------------------------------*/
 .contact .contact-form-container {
   padding: 60px 0;
+  
 }
 
 .contact .contact-form-container .form-intro {
   margin-bottom: 60px;
+}
+
+.flex-contact{
+  display: flex !important;
+  align-items: stretch !important;
+  min-height: 800px;
+}
+
+.contact .contact-form-container,
+.contact .contact-sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.contact .contact-form-container,
+.contact .contact-sidebar {
+  padding-bottom: 1px; /* prevents margin collapse */
 }
 
 .contact .contact-form-container .form-intro h2 {
