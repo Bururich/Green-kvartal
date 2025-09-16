@@ -1067,9 +1067,9 @@ section,
 }
 
 .hero .hero-buttons .btn.btn-primary {
-  background-color: var(--nav-hover-color);
-  color: #fff;
-  border-color: var(--nav-hover-color);
+  background-color: var(--contrast-color);
+  color: var(--nav-color);
+  border-color: var(--contrast-color);
 }
 
 .hero .hero-buttons .btn.btn-primary:hover {
@@ -1880,7 +1880,7 @@ section,
 }
 
 .features-cards .testimonial-image {
-  height: 100%;
+  height: 20%;
 }
 
 .features-cards .testimonial-image img {
@@ -1971,7 +1971,7 @@ section,
 --------------------------------------------------------------*/
 .call-to-action {
   padding: 0;
-  
+  margin-top: 6rem;
 }
 
 .call-to-action .container {
@@ -2174,6 +2174,7 @@ section,
 --------------------------------------------------------------*/
 .services .services-showcase {
   margin-bottom: 6rem;
+  
 }
 
 .services .services-showcase .featured-service {
@@ -3174,17 +3175,19 @@ section,
 --------------------------------------------------------------*/
 .contact .contact-form-container {
   padding: 60px 0;
-  
+  display: block;
 }
 
 .contact .contact-form-container .form-intro {
   margin-bottom: 60px;
 }
 
-.flex-contact{
-  display: flex !important;
-  align-items: stretch !important;
-  min-height: 800px;
+.form-email {
+  visibility: hidden;
+}
+
+.form-subject {
+  visibility: hidden;
 }
 
 .contact .contact-form-container,
@@ -3206,6 +3209,8 @@ section,
   color: var(--heading-color);
   letter-spacing: -0.5px;
 }
+
+
 
 @media (max-width: 768px) {
   .contact .contact-form-container .form-intro h2 {
@@ -3280,7 +3285,7 @@ section,
 }
 
 .contact .contact-form-container .contact-form .send-button {
-  background: transparent;
+  background: var(--nav-color);
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
   padding: 18px 40px;
