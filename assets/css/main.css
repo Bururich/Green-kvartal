@@ -465,11 +465,17 @@ h6 {
 }
 
 .footer .footer-content .logo span {
-  color: var(--heading-color);
+  color: var(--contrast-color);
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.5px;
   font-family: var(--heading-font);
+}
+
+.footer .footer-content .logo img {
+  color: var(--contrast-color);
+  
+  height: 60px;
 }
 
 .footer .footer-content p {
@@ -3287,7 +3293,7 @@ section,
 .contact .contact-form-container .contact-form .send-button {
   background: var(--nav-color);
   border: 1px solid var(--accent-color);
-  color: var(--accent-color);
+  color: var(--contrast-color);
   padding: 18px 40px;
   font-size: 14px;
   font-weight: 500;
